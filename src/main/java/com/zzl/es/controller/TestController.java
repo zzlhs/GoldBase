@@ -10,4 +10,9 @@ public class TestController {
 	public String test() {
 		return "test";
 	}
+	
+	@GetMapping("/testAOP")
+	public String testAOP() {
+		return "testAOP";
+	}
 }
