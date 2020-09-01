@@ -8,6 +8,7 @@ public class TestController {
 
 	@GetMapping("/test")
 	public String test() {
+		int i = 9 / 0;
 		return "test";
 	}
 	

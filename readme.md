@@ -31,6 +31,10 @@ globalsession
 
 详细请看 --->> https://blog.csdn.net/qq_38951372/article/details/89345134  
 
+#### spring事务的传播行为介绍 --> https://www.cnblogs.com/lansetuerqi/p/12807891.html  
+
+#### 隔离级别 --> https://blog.csdn.net/acmman/article/details/82926410
+
 
 
 

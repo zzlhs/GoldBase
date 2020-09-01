@@ -6,7 +6,11 @@ import org.springframework.context.annotation.Scope;
 
 import com.zzl.es.pojo.Customer;
 import com.zzl.es.pojo.SingleClass2;
-
+/**
+ * bean的单例与scope的测试
+ * @author zyf
+ *
+ */
 @Configuration
 public class Config {
 	
