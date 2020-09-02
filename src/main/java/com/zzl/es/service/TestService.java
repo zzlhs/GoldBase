@@ -7,7 +7,6 @@ public class TestService {
 	
 	
 	public void testMethod() {
-//		int i = 9 / 0;
 		System.out.println("success in service");
 	}
 	
