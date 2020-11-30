@@ -1,4 +1,4 @@
-package com.zzl.pool.cp;
+package com.zzl.pool.cp.sync;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

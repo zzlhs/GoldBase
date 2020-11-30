@@ -1,4 +1,4 @@
-package com.zzl.pool.cp;
+package com.zzl.pool.cp.sync;
 
 public class Test {
 	public static void main(String[] args) {
