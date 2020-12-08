@@ -7,6 +7,8 @@ import java.util.concurrent.locks.ReentrantLock;
 public class TestLock {
 	private ArrayList<Integer> arrayList = new ArrayList<Integer>();
     private Lock lock = new ReentrantLock();    //注意这个地方
+    
+    
     public static void main(String[] args)  {
         final TestLock test = new TestLock();
          
