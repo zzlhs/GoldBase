@@ -3,12 +3,15 @@ package com.zzl.offer;
 public class CalOneCount {
 
 	public static void main(String[] args) {
-		int temp = 10;
+		
+		int temp = 15; 
 		int count = 0;
+		
 		while(temp != 0) {
 			++count;
 			temp = temp & (temp - 1);
 		}
+		
 		System.out.println(count);
 	}
 	
@@ -16,7 +19,9 @@ public class CalOneCount {
 	 *   1010
 	 *   1001
 	 * 	 8421
+	 * 
 	 *   正数  
+	 *   
 	 * 	 3的过程
 	 *   11
 	 *   10 
@@ -29,5 +34,4 @@ public class CalOneCount {
 	 *   负数
 	 *    
 	 */
-
 }

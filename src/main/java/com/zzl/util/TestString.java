@@ -19,5 +19,8 @@ public class TestString {
         long machineMaxSize = ~(-1L << (64 - 1 - 12)) - 1;
 
 		System.out.println(machineMaxSize);
+		System.out.println("-------------------------------------------");
+		String format = String.format("%s_%d_%d", "123", 123, 456);
+	    System.out.println(format);
 	}
 }

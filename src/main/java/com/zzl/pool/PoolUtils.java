@@ -1,9 +1,7 @@
 package com.zzl.pool;
 
-import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ScheduledExecutorService;
 /**
  * 
@@ -22,14 +20,23 @@ public class PoolUtils {
 		if(j > 5) {
 			System.out.println("j>5");
 		}
-		
-//		System.out.println(i);
 	}
 	public static ScheduledExecutorService m1() {
+		/*
+		 * 一个
+		 */
 		ExecutorService executorService = Executors.newCachedThreadPool();
-		
+		/*
+		 * 单一线程池
+		 */
 		Executors.newSingleThreadExecutor();
+		/*
+		 * 
+		 */
 		Executors.newFixedThreadPool(5);
+		/*
+		 * 
+		 */
 		Executors.newScheduledThreadPool(1);
 		
 		executorService.execute(new Runnable() {
