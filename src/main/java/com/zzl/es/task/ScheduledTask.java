@@ -33,15 +33,15 @@ public class ScheduledTask {
 		}
 	}
 	
-	@Scheduled(cron = "* * * * * *")
-	public void task2() {
-		System.out.println("task2 -> " + Thread.currentThread().getName());
-
-	}
-	
-	@Scheduled(cron = "* * * * * *")
-	public void task3() {
-		System.out.println("task3 -> " + Thread.currentThread().getName());
-
-	}
+//	@Scheduled(cron = "* * * * * *")
+//	public void task2() {
+//		System.out.println("task2 -> " + Thread.currentThread().getName());
+//
+//	}
+//	
+//	@Scheduled(cron = "* * * * * *")
+//	public void task3() {
+//		System.out.println("task3 -> " + Thread.currentThread().getName());
+//
+//	}
 }
