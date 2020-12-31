@@ -1,5 +1,8 @@
 package com.zzl.util;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 public class TestString {
 	public static void main(String[] args) {
 //		String.format("", args);
@@ -22,5 +25,7 @@ public class TestString {
 		System.out.println("-------------------------------------------");
 		String format = String.format("%s_%d_%d", "123", 123, 456);
 	    System.out.println(format);
+		System.out.println("-------------------------------------------");
+		System.out.println(LocalDate.now() + " " +LocalDateTime.now() );
 	}
 }
