@@ -10,8 +10,8 @@ import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 
 import java.util.concurrent.Executor;
 
-@Configuration
-@EnableScheduling
+//@Configuration
+//@EnableScheduling
 public class ScheduleConfig implements AsyncConfigurer,SchedulingConfigurer {
 
 	@Override

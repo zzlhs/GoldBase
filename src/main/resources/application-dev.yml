@@ -1,3 +1,7 @@
 
 server:
   port: 8080
+
+XSDS_JOB: xsdsJob
+JOB_GROUP_NAME: jobGroupName
+TRG_GROUP_NAME: trgGroupName
