@@ -1,3 +1,16 @@
 spring: 
   profiles: 
     active: dev
+  dubbo:
+    application:  
+      name: dubboTestProject
+      id: dubboTest
+    registry:
+      protocol: zookeeper
+      address: xxx.xxx.xx # 注册中心地址
+    protocol:
+      name: dubbo
+      port: 22300
+    scan: com.zzl.es # package name
+    
+
