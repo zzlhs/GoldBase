@@ -1,3 +1,16 @@
 
 server:
   port: 8080
+
+spring:
+  dubbo:  
+    application:    
+      name: dubboTestProject
+     # id: dubboTest
+    registry:
+      #protocol: zookeeper
+      address: zookeeper://127.0.0.1:2181 # 注册中心地址
+    protocol:
+      name: dubbo
+      port: 22300
+    scan: com.zzl.es.dubbo # package name

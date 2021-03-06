@@ -1,0 +1,2 @@
+DubboConsumerTransactionFilter=com.zzl.es.dubbo.filter.DubboInterceptorTest
+DubboProviderTransactionFilter=com.codingapi.txlcn.tc.rpc.DubboProviderRpcTransactionInterceptor
