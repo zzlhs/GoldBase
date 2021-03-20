@@ -1,4 +1,4 @@
-package com.zzl.es.controller;
+package com.zzl.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
