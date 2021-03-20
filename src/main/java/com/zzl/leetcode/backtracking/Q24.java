@@ -1,4 +1,4 @@
-package com.zzl.leetcode.q1662;
+package com.zzl.leetcode.backtracking;
 
 public class Q24 {
 	public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Q24 {
 		ListNode four = new ListNode(4);
 		one.next = two;
 		two.next = three;
-		three.next = four;
+//		three.next = four;
 		
 //		while(one != null) {
 //			System.out.println(one.val);

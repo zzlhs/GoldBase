@@ -1,4 +1,4 @@
-package com.zzl.leetcode.q1662;
+package com.zzl.leetcode.backtracking;
 
 public class q1689 {
 	

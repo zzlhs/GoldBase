@@ -1,4 +1,4 @@
-package com.zzl.leetcode.q1662;
+package com.zzl.leetcode.backtracking;
 
 import java.util.LinkedList;
 import java.util.ListIterator;

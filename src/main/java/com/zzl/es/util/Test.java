@@ -1,5 +1,6 @@
 package com.zzl.es.util;
 
+import org.elasticsearch.action.index.IndexRequest;
 import org.springframework.util.DigestUtils;
 
 public class Test {
@@ -22,5 +23,7 @@ public class Test {
 		
 		String strMd5 = DigestUtils.md5DigestAsHex("zyf".getBytes());
 		System.out.println(strMd5);
+		
+//		IndexRequest indexRequest
 	}
 }
